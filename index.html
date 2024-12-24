@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Landing_Spotify</title>
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
@@ -56,21 +56,34 @@
         <div class="display__sidebar">
           <div class="display__sidebar--header">
             <div class="library">
-              <div class="material-icons">library_music</div>
-              <b>Library</b>
+              <div class="lib_music">
+                <div class="material-icons">library_music</div>
+              </div>
+              <div class="lib_text">
+                <b>Library</b>
+              </div>
             </div>
             <div class="plus">
-              <div class="material-icons">add arrow_forward</div>
+              <div class="add">
+                <div class="material-icons">add</div>
+              </div>
+              <div class="arrow_forward">
+                <div class="material-icons">arrow_forward</div>
+              </div>
             </div>
             <div class="artist">Artist</div>
           </div>
 
           <div class="display__sidebar--library">
             <div class="library-search">
-              <div class="material-icons">search</div>
+              <div class="search-icon">
+                <div class="material-icons">search</div>
+              </div>
               <div class="recently">
-                Rencently
-                <div class="material-icons">list</div>
+                <div class="recently_text">Rencently</div>
+                <div class="recently_icon">
+                  <div class="material-icons">list</div>
+                </div>
               </div>
             </div>
 
@@ -418,17 +431,13 @@
         </div>
         <div class="footer__play">
           <div class="symbol">
-            <div class="material-icons" style="font-size: 17px; color: grey">
-              shuffle
-            </div>
+            <div class="material-icons" style="font-size: 17px">shuffle</div>
             <div class="material-icons">skip_previous</div>
-            <div class="material-icons" style="font-size: 40px">
+            <div class="material-icons" style="font-size: 40px; color: white">
               play_circle
             </div>
             <div class="material-icons">skip_next</div>
-            <div class="material-icons" style="font-size: 17px; color: grey">
-              replay
-            </div>
+            <div class="material-icons" style="font-size: 17px">replay</div>
           </div>
           <div class="running_bar">
             <div class="start">0:00</div>
@@ -442,16 +451,18 @@
           <span class="material-icons" style="color: green"
             >featured_play_list</span
           >
-          <span class="material-icons">lyrics</span>
-          <span class="material-icons">queue_music</span>
-          <span class="material-icons">cast</span>
-          <div class="volume">
-            <span class="material-icons">volume_up </span>
-            <div class="volume_bar">--------</div>
-          </div>
+          <div class="other_icon">
+            <span class="material-icons">lyrics</span>
+            <span class="material-icons">queue_music</span>
+            <span class="material-icons">cast</span>
+            <div class="volume">
+              <span class="material-icons">volume_up </span>
+              <div class="volume_bar">--------</div>
+            </div>
 
-          <span class="material-icons">connected_tv</span>
-          <span class="material-icons">fullscreen</span>
+            <span class="material-icons">connected_tv</span>
+            <span class="material-icons">fullscreen</span>
+          </div>
         </div>
       </div>
     </div>
